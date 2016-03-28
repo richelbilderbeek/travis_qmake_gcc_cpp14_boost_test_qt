@@ -14,7 +14,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Code coverage: none
  * Source: multiple files
 
-More complex builds:
+Note that this build is unsuitable for testing Qt GUI classes, use [travis_qmake_gcc_cpp14_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt_qtest) instead.
 
 Less complex builds:
  * Use C++98: [travis_qmake_gcc_cpp98_boost_test_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_qt)
